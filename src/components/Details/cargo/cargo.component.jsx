@@ -4,12 +4,9 @@ import "../collection-detail.styles.css";
 export const Cargo = (props) => {
   return (
     <div>
-      <p className="shipmentDetail-title">Cargo Description: </p>
+      <p className="shipmentDetail-title">Cargo Details </p>
       {props.cargoDetail.map((cargo) => (
         <div key={cargo.id}>
-          <p>
-            {cargo.id} {")"}
-          </p>
           <p>
             <span>Type: </span>
             <span>{cargo.type}</span>

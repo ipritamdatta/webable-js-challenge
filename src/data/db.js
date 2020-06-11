@@ -22,6 +22,7 @@ const shipments = [
     origin: "Shanghai Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -34,11 +35,13 @@ const shipments = [
     name: "New spring collection(2018)",
     cargo: [
       {
+        id: 1,
         type: "Furniture",
         description: "300 Tables",
         volume: "20",
       },
       {
+        id: 2,
         type: "Furniture",
         description: "1500 Chairs",
         volume: "15",
@@ -50,9 +53,11 @@ const shipments = [
     origin: "Ningbo port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
       {
+        id: 2,
         type: "insurance",
         value: "100",
       },
@@ -66,6 +71,7 @@ const shipments = [
     name: "PO89634, PO27X",
     cargo: [
       {
+        id: 1,
         type: "Bikes model 27X",
         description: "100 Bikes model 27X",
         volume: "100",
@@ -77,6 +83,7 @@ const shipments = [
     origin: "Shanghai Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -89,6 +96,7 @@ const shipments = [
     name: "New Furnitures from Shengen(2018)",
     cargo: [
       {
+        id: 1,
         type: "Couch22 White",
         description: "103 Couch model Couch22",
         volume: "103",
@@ -100,6 +108,7 @@ const shipments = [
     origin: "Shengen Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
     ],
@@ -112,6 +121,7 @@ const shipments = [
     name: "New Furnitures from Shengen",
     cargo: [
       {
+        id: 1,
         type: "Couch22 White",
         description: "103 Couch model Couch22",
         volume: "103",
@@ -123,6 +133,7 @@ const shipments = [
     origin: "Shengen Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
     ],
@@ -135,11 +146,13 @@ const shipments = [
     name: "New Furnitures From Chittagong",
     cargo: [
       {
+        id: 1,
         type: "Couch22 White",
         description: "103 Couch model Couch22",
         volume: "103",
       },
       {
+        id: 2,
         type: "Couch22 Black",
         description: "103 Couch model Couch22",
         volume: "103",
@@ -151,6 +164,7 @@ const shipments = [
     origin: "Chittagong Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
     ],
@@ -163,11 +177,13 @@ const shipments = [
     name: "Vacuum Cleaners",
     cargo: [
       {
+        id: 1,
         type: "TVAC515",
         description: "555 TVAC515 120V",
         volume: "555",
       },
       {
+        id: 2,
         type: "Couch22 Black",
         description: "555 TVAC515 240V",
         volume: "555",
@@ -179,9 +195,11 @@ const shipments = [
     origin: "Hamburg Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
       {
+        id: 2,
         type: "customs",
       },
     ],
@@ -194,6 +212,7 @@ const shipments = [
     name: "Mattress",
     cargo: [
       {
+        id: 1,
         type: "MAT128",
         description: "MAT12ftx82ft",
         volume: "666",
@@ -205,6 +224,7 @@ const shipments = [
     origin: "Bremerhaven Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -217,6 +237,7 @@ const shipments = [
     name: "Scooters",
     cargo: [
       {
+        id: 1,
         type: "Gororo",
         description: "Gororo Type B",
         volume: "150",
@@ -228,6 +249,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -240,6 +262,7 @@ const shipments = [
     name: "Helmets",
     cargo: [
       {
+        id: 1,
         type: "HelmGoro",
         description: "HelmGoro Red",
         volume: "150",
@@ -251,6 +274,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -263,6 +287,7 @@ const shipments = [
     name: "Neukrit 5a Cable",
     cargo: [
       {
+        id: 1,
         type: "Neukrit5a",
         description: "Cable with phantom support",
         volume: "80",
@@ -274,6 +299,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -286,6 +312,7 @@ const shipments = [
     name: "Neukrit Phantom3",
     cargo: [
       {
+        id: 1,
         type: "NeukritPh3",
         description: "Phantom Plug Gold Plated",
         volume: "100",
@@ -297,6 +324,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -309,11 +337,13 @@ const shipments = [
     name: "T-shirts(Spring 2018) from Shanghai to Hamburg",
     cargo: [
       {
+        id: 1,
         type: "Fabric",
         description: "1000 Blue T-shirts",
         volume: "2",
       },
       {
+        id: 2,
         type: "Fabric",
         description: "2000 Green T-shirts",
         volume: "3",
@@ -325,6 +355,7 @@ const shipments = [
     origin: "Shanghai Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -337,11 +368,13 @@ const shipments = [
     name: "New spring furniture collection(2018)",
     cargo: [
       {
+        id: 1,
         type: "Furniture",
         description: "300 Tables",
         volume: "20",
       },
       {
+        id: 2,
         type: "Furniture",
         description: "1500 Chairs",
         volume: "15",
@@ -353,9 +386,11 @@ const shipments = [
     origin: "Ningbo port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
       {
+        id: 2,
         type: "insurance",
         value: "100",
       },
@@ -369,6 +404,7 @@ const shipments = [
     name: "New Furnitures from Shengen(Rosewood)",
     cargo: [
       {
+        id: 1,
         type: "Couch22 White",
         description: "103 Couch model Couch22",
         volume: "103",
@@ -380,6 +416,7 @@ const shipments = [
     origin: "Shengen Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
     ],
@@ -392,11 +429,13 @@ const shipments = [
     name: "New Furnitures From Chittagong(Sisou)",
     cargo: [
       {
+        id: 1,
         type: "Couch22 White",
         description: "103 Couch model Couch22",
         volume: "103",
       },
       {
+        id: 2,
         type: "Couch22 Black",
         description: "103 Couch model Couch22",
         volume: "103",
@@ -408,6 +447,7 @@ const shipments = [
     origin: "Chittagong Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
     ],
@@ -420,11 +460,13 @@ const shipments = [
     name: "Vacuum Cleaners",
     cargo: [
       {
+        id: 1,
         type: "TVAC515",
         description: "555 TVAC515 120V",
         volume: "555",
       },
       {
+        id: 2,
         type: "Couch22 Black",
         description: "555 TVAC515 240V",
         volume: "555",
@@ -436,9 +478,11 @@ const shipments = [
     origin: "Hamburg Port",
     services: [
       {
+        id: 1,
         type: "insurance",
       },
       {
+        id: 2,
         type: "customs",
       },
     ],
@@ -451,6 +495,7 @@ const shipments = [
     name: "Mattress(Medium)",
     cargo: [
       {
+        id: 1,
         type: "MAT128",
         description: "MAT12ftx82ft",
         volume: "666",
@@ -462,6 +507,7 @@ const shipments = [
     origin: "Bremerhaven Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -474,6 +520,7 @@ const shipments = [
     name: "Scooters Blue/Green",
     cargo: [
       {
+        id: 1,
         type: "Gororo",
         description: "Gororo Type B",
         volume: "150",
@@ -485,6 +532,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -497,6 +545,7 @@ const shipments = [
     name: "Helmets(Round)",
     cargo: [
       {
+        id: 1,
         type: "HelmGoro",
         description: "HelmGoro Red",
         volume: "150",
@@ -508,6 +557,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -520,6 +570,7 @@ const shipments = [
     name: "Neukrit 5a Cable",
     cargo: [
       {
+        id: 1,
         type: "Neukrit5a",
         description: "Cable with phantom support",
         volume: "80",
@@ -531,6 +582,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -543,6 +595,7 @@ const shipments = [
     name: "Neukrit Phantom3",
     cargo: [
       {
+        id: 1,
         type: "NeukritPh3",
         description: "Phantom Plug Gold Plated",
         volume: "100",
@@ -554,6 +607,7 @@ const shipments = [
     origin: "Xianbou Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -566,11 +620,13 @@ const shipments = [
     name: "T-shirts(Spring 2019) from Shanghai to Hamburg",
     cargo: [
       {
+        id: 1,
         type: "Fabric",
         description: "1000 Blue T-shirts",
         volume: "2",
       },
       {
+        id: 2,
         type: "Fabric",
         description: "2000 Green T-shirts",
         volume: "3",
@@ -582,6 +638,7 @@ const shipments = [
     origin: "Shanghai Port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
     ],
@@ -594,11 +651,13 @@ const shipments = [
     name: "New spring collection(2019)",
     cargo: [
       {
+        id: 1,
         type: "Furniture",
         description: "300 Tables",
         volume: "20",
       },
       {
+        id: 2,
         type: "Furniture",
         description: "1500 Chairs",
         volume: "15",
@@ -610,9 +669,11 @@ const shipments = [
     origin: "Ningbo port",
     services: [
       {
+        id: 1,
         type: "customs",
       },
       {
+        id: 2,
         type: "insurance",
         value: "100",
       },

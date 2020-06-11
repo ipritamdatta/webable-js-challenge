@@ -3,6 +3,7 @@ import "./collection-detail.styles.css";
 import shipments from "../../data/db";
 import { Link } from "react-router-dom";
 import { Cargo } from "./cargo/cargo.component";
+import { Service } from "./service/service.component";
 
 class CollectionDetail extends Component {
   constructor() {
@@ -46,11 +47,8 @@ class CollectionDetail extends Component {
               <span className="shipmentDetail-title">Origin:</span>{" "}
               {shipmentdata.origin}
             </p>
-            <h4>Services</h4>
-            <p>
-              <span className="shipmentDetail-title">Type:</span>{" "}
-              {shipmentdata.type}
-            </p>
+            <Service serviceDetail={shipmentdata.services} />
+
             <p>
               <span className="shipmentDetail-title">Total:</span>{" "}
               {shipmentdata.total}
