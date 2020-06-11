@@ -23,8 +23,8 @@ const CollectionPreview = (props) => {
         {props.shipmentDetail.type}
       </p>
       <p>
-        <span>Designation: </span>
-        {props.shipmentDetail.designation}
+        <span>Destination: </span>
+        {props.shipmentDetail.destination}
       </p>
       <p>
         <span>Origin: </span>

@@ -10,14 +10,30 @@ class App extends Component {
 
     this.state = {
       collections: shipments,
+      searchField: "",
     };
   }
 
+  handleChange = (e) => {
+    this.setState({
+      searchField: e.target.value,
+    });
+  };
+
   render() {
-    const { collections } = this.state;
+    const { collections, searchField } = this.state;
+    const filteredCollections = collections.filter((collection) =>
+      collection.id.toLowerCase().includes(searchField.toLowerCase())
+    );
+
     return (
       <div className="App">
-        <Shipment collections={collections} />
+        <input
+          type="search"
+          placeholder="search by shipment id"
+          onChange={this.handleChange}
+        />
+        <Shipment collections={filteredCollections} />
       </div>
     );
   }
