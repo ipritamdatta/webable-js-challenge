@@ -1,9 +1,9 @@
 import React from "react";
-
 import "./collection-preview.styles.css";
+import { Link } from "react-router-dom";
 
 const CollectionPreview = (props) => {
-  console.log(props);
+  // console.log(props);
 
   return (
     <div className="card-container">
@@ -30,6 +30,9 @@ const CollectionPreview = (props) => {
         <span>Origin: </span>
         {props.shipmentDetail.origin}
       </p>
+
+      {/* <button onClick={handleClick}>View details</button> */}
+      <Link to={`/detail/${props.shipmentDetail.id}`}>View</Link>
     </div>
   );
 };
