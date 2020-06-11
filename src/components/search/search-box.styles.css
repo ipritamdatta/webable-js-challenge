@@ -1,0 +1,14 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  width: 250px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(235, 220, 210, 0.945);
+  margin-top: 20px;
+}
+.search:focus {
+  background-color: rgb(224, 238, 233);
+}

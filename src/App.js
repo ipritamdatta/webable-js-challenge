@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import shipments from "./data/db";
 import { Shipment } from "./components/shipment/shipment.components";
+import { SearchBox } from "./components/search/search-box.component";
 
 class App extends Component {
   constructor() {
@@ -28,10 +29,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <input
-          type="search"
-          placeholder="search by shipment id"
-          onChange={this.handleChange}
+        <SearchBox
+          placeholder="Search By Shipment ID"
+          handleChange={this.handleChange}
         />
         <Shipment collections={filteredCollections} />
       </div>
