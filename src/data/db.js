@@ -4,11 +4,13 @@ const shipments = [
     name: "T-shirts(Summer2018) from Shanghai to Hamburg",
     cargo: [
       {
+        id: 1,
         type: "Fabric",
         description: "1000 Blue T-shirts",
         volume: "2",
       },
       {
+        id: 2,
         type: "Fabric",
         description: "2000 Green T-shirts",
         volume: "3",

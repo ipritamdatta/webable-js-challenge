@@ -32,7 +32,9 @@ const CollectionPreview = (props) => {
       </p>
 
       {/* <button onClick={handleClick}>View details</button> */}
-      <Link to={`/detail/${props.shipmentDetail.id}`}>View</Link>
+      <Link to={`/detail/${props.shipmentDetail.id}`} className="button">
+        View
+      </Link>
     </div>
   );
 };
