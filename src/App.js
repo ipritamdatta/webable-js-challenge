@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import shipments from "./data/db";
-import { Shipment } from "./components/shipment.components";
+import { Shipment } from "./components/shipment/shipment.components";
 
 class App extends Component {
   constructor() {
